@@ -1,4 +1,5 @@
 class AlatMasak {
+
     private String nama;
     private String materi;
     private double harga;
@@ -6,6 +7,30 @@ class AlatMasak {
     public AlatMasak(String nama, String materi, double harga) {
         this.nama = nama;
         this.materi = materi;
+        this.harga = harga;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getMateri() {
+        return materi;
+    }
+
+    public void setMateri(String materi) {
+        this.materi = materi;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
         this.harga = harga;
     }
 

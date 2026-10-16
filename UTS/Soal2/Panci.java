@@ -6,6 +6,14 @@ class Panci extends AlatMasak {
         this.kapasitasLiter = kapasitasLiter;
     }
 
+    public double getKapasitasLiter() {
+        return kapasitasLiter;
+    }
+
+    public void setKapasitasLiter(double kapasitasLiter) {
+        this.kapasitasLiter = kapasitasLiter;
+    }
+
     public void rebusAir() {
         System.out.println("Panci sedang merebus air dengan kapasitas " + kapasitasLiter + " Liter");
     }

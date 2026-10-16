@@ -8,6 +8,22 @@ class Wajan extends AlatMasak {
         this.antiLengket = antiLengket;
     }
 
+    public double getDiameterCm() {
+        return diameterCm;
+    }
+
+    public void setDiameterCm(double diameterCm) {
+        this.diameterCm = diameterCm;
+    }
+
+    public boolean isAntiLengket() {
+        return antiLengket;
+    }
+
+    public void setAntiLengket(boolean antiLengket) {
+        this.antiLengket = antiLengket;
+    }
+
     public void tumis() {
         System.out.println("Wajan sedang digunakan untuk menumis bumbu dasar");
     }
